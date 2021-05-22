@@ -1,0 +1,243 @@
+.layout {
+  /* min-height: 100vh; */
+  height: fit-content;
+}
+
+
+.title {
+  width: 200px;
+  margin: auto 24px;
+  font-size: 1.2rem;
+}
+
+.header {
+  left: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.12), 0 0 13px 2px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  padding: 0 26px 0 36px;
+  position: relative;
+  z-index: 99;
+  margin-bottom: 0px;
+  height: 88px;
+
+}
+
+.content {
+  flex: auto
+}
+
+.xjtuImg {
+  height: 60px;
+  vertical-align: -webkit-baseline-middle;
+  position: relative;
+  z-index: -1;
+  float: left;
+  top: 0.8rem;
+}
+
+.logoImg {
+  height: 60px;
+  vertical-align: -webkit-baseline-middle;
+  position: relative;
+  z-index: -1;
+  float: left;
+  top: 0.8rem;
+}
+
+.headText {
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-family: 'Source Sana Pro,sans-serif'; */
+  color: indigo;
+  position: relative;
+  top: 1.2rem
+}
+
+.bgImg {
+  height: 200px;
+  width: 100%;
+}
+
+
+.dataText {
+ 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+}
+
+.datah2Text {
+  position: relative;
+  top: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: white;
+  /* font-family: 'Source Sana Pro,sans-serif'; */
+}
+
+
+.nav_con {
+  position: absolute;
+  top: 400px;
+  left: 125px;
+}
+
+
+.sider {
+  width: 500px;
+  display: flex;
+  background-color: inherit;
+  color: white;
+}
+
+.footer {
+  height: 5rem;
+}
+
+.menu {
+  flex: auto
+}
+
+.col1 {
+  display: flex;
+
+}
+
+.wrap {
+  /* 这个只是用来居中内容 */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+  top: 4.5rem;
+}
+
+table thead th {
+  font-size: 400;
+}
+
+.table_wrap {
+  overflow: auto;
+  width: 80%;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table_title {
+  text-align: center;
+  font-size: 20px;
+  /* padding: 0.3rem; */
+}
+
+.table_text {
+  text-align: center;
+  font-size: 20px;
+  /* padding: 0.3rem; */
+}
+
+.table_content {
+  font-size: x-large;
+}
+
+.examples {
+  height: 25rem;
+  width: 100%;
+  position: relative;
+  top: 3rem;
+  left: 40px;
+}
+
+.wholeImg {
+  background-image: url('../assets/Introduction.png');
+  width: 80%;
+  height: 0;
+  left: 5%;
+  position: relative;
+  padding-bottom: 28.727%;
+  top: 1.5rem;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.headbackground{
+  height: 200px;
+  color: #fff;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #4B0082);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  color:'#159957'
+}
+.AnnotationImg {
+  background-image: url('../assets/annotation.png');
+  width: 80%;
+  height: 0;
+  left: 5%;
+  top: 1.5rem;
+  position: relative;
+  padding-bottom: 30.7389%;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.AboutImg {
+  background-image: url('../assets/ObjectDetection.png');
+  width: 40%;
+  height: 0;
+  left: 7%;
+  top: 6rem;
+  position: relative;
+  padding-bottom: 31.15%;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.vqaImg {
+  background-image: url('../assets/QA.png');
+  width: 70%;
+  height: 0;
+  left: 10%;
+  top: 1rem;
+  position: relative;
+  padding-bottom: 18.042%;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
